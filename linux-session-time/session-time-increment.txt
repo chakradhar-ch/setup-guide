@@ -1,0 +1,11 @@
+sudo vi /etc/ssh/sshd_config
+
+ClientAliveInterval  1200
+ClientAliveCountMax 3
+
+sudo systemctl reload sshd
+
+
+
+The Timeout value will be 1200 seconds * 3 = 3600 seconds.
+This is an equivalent of 1 hour, which implies that your ssh session will remain alive for idle time of 1 hour without dropping.
