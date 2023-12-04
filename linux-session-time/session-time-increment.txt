@@ -1,4 +1,4 @@
-sudo vi /etc/ssh/sshd_config
+sudo nano /etc/ssh/sshd_config
 
 ClientAliveInterval  1200
 ClientAliveCountMax 3
