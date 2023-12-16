@@ -12,7 +12,7 @@ eksctl create cluster \
 
 
 
-  aws eks update-kubeconfig --region region-code --name my-cluster
+  AWS eks update-kubeconfig --region region-code --name my-cluster
 
   
 ************************
